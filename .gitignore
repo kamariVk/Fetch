@@ -6,6 +6,8 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
+# Local duplicate checkout (kept outside this project's version control)
+/fetch/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
