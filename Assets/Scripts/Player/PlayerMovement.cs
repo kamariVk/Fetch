@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float movementSpeed = 5f;
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D rb;
     private int moveDirection = 0;
     public InputAction jumpAction;
     public float jumpForce;
@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         jumpAction.Enable();
     }
 
@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             moveDirection++;
         }
         float horizontalSpeed = moveDirection * movementSpeed;
-        rigidbody.linearVelocity = new Vector2(horizontalSpeed, rigidbody.linearVelocity.y);
+        rb.linearVelocity = new Vector2(horizontalSpeed, rb.linearVelocity.y);
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
 
@@ -44,15 +44,15 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
-        if (jumpAction.WasReleasedThisFrame() && rigidbody.linearVelocity.y > 0)
+        if (jumpAction.WasReleasedThisFrame() && rb.linearVelocity.y > 0)
         {
-            rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocity.x, rigidbody.linearVelocity.y* jumpCutmultiplier);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y* jumpCutmultiplier);
         }
     }
 
 
     public void Jump()
     {
-        rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocity.x, jumpForce);
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
 }
