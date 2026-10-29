@@ -17,10 +17,11 @@ public class Frisbee : MonoBehaviour
 
     void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+       if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            rb.bodyType = RigidbodyType2D.Dynamic;
-            rb.AddForce(Vector2.right * throwStrength, ForceMode2D.Impulse);
+        transform.SetParent(null);
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.AddForce(Vector2.right * throwStrength, ForceMode2D.Impulse);
         }
     }
 

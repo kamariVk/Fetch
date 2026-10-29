@@ -12,8 +12,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - Frisbee
+  - Tom
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Frisbee
+    uniqueID: 2135665301
     locked: 0
   m_RenderingLayers:
   - Default
