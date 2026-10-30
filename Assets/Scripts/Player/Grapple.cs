@@ -23,7 +23,7 @@ public class Grapple : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(1))
         {
             Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(Physics2D.OverlapCircle(point, 0.1f, grappleableLayer) != null)
@@ -33,11 +33,13 @@ public class Grapple : MonoBehaviour
                 lr.SetPosition(0, transform.position);
                 lr.SetPosition(1, point);
 
+                dj.connectedAnchor = point;
+                dj.distance = Vector2.Distance(transform.position, point);
                 dj.enabled = true;
-                dj.anchor = point;
+                rb.AddForce(new Vector2(Mathf.Sign(point.x - transform.position.x) * 15f, 5f), ForceMode2D.Impulse);
             }
         }
-        if(Input.GetMouseButtonUp(0))
+        if(Input.GetMouseButtonUp(1))
         {
             isGrappling = false;
             lr.enabled = false;
@@ -47,7 +49,7 @@ public class Grapple : MonoBehaviour
         {
             lr.enabled = true;
             lr.SetPosition(0, transform.position);
-            lr.SetPosition(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            lr.SetPosition(1, Camera.main.ScreenToWorldPoint(Input.mousePosition));
         }
     }
 }
