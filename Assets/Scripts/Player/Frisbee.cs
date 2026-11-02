@@ -19,6 +19,8 @@ public class Frisbee : MonoBehaviour
     {
        if (Mouse.current.leftButton.wasPressedThisFrame)
         {
+            Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
+
         transform.SetParent(null);
         rb.bodyType = RigidbodyType2D.Dynamic;
         rb.AddForce(Vector2.right * throwStrength, ForceMode2D.Impulse);
