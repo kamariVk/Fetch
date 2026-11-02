@@ -7,6 +7,7 @@ public class Frisbee : MonoBehaviour
     private Rigidbody2D rb;
     private Vector3 startLocalPosition;
     private Quaternion startLocalRotation; //Quaternion er enheden den bruger til at gemme rotation
+    private bool isHoldingFrisbee = true;
 
     void Awake()
     {
@@ -17,13 +18,17 @@ public class Frisbee : MonoBehaviour
 
     void Update()
     {
-       if (Mouse.current.leftButton.wasPressedThisFrame)
+       if (Mouse.current.leftButton.wasPressedThisFrame && isHoldingFrisbee)
         {
+            isHoldingFrisbee = false;
             Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
+            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
+            Vector2 retning = mouseWorldPosition - transform.position;
 
-        transform.SetParent(null);
+            transform.SetParent(null);
         rb.bodyType = RigidbodyType2D.Dynamic;
-        rb.AddForce(Vector2.right * throwStrength, ForceMode2D.Impulse);
+        rb.AddForce(retning.normalized * throwStrength, ForceMode2D.Impulse);
+           
         }
     }
 
@@ -41,5 +46,6 @@ public class Frisbee : MonoBehaviour
         transform.SetParent(player);
         transform.localPosition = startLocalPosition;
         transform.localRotation = startLocalRotation;
+        isHoldingFrisbee = true;
     }
 }

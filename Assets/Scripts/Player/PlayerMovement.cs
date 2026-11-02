@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float checkRadius = 1f;
     public LayerMask groundLayer;
     public float jumpCutmultiplier;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+  
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -34,6 +34,11 @@ public class PlayerMovement : MonoBehaviour
             
             moveDirection++;
         }
+        if (moveDirection != 0) 
+        {
+            transform.localScale = new Vector3(moveDirection, 2.539F, 1); //bruges til at vende spilleren 180 grader så det ligner han vender sig når han går til venstre og højre
+        }
+
         float horizontalSpeed = moveDirection * movementSpeed;
         rigidbody.linearVelocity = new Vector2(horizontalSpeed, rigidbody.linearVelocity.y);
 
