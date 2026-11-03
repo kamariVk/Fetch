@@ -1305,6 +1305,10 @@ PrefabInstance:
       value: player
       objectReference: {fileID: 0}
     - target: {fileID: 6529336677213444685, guid: dd2293e8ab907784ca7c81fcdacb9b6f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529336677213444685, guid: dd2293e8ab907784ca7c81fcdacb9b6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.352126
       objectReference: {fileID: 0}
@@ -4225,7 +4229,7 @@ MonoBehaviour:
   jumpForce: 15
   isGrounded: 1
   groundCheck: {fileID: 453040483}
-  checkRadius: 0.3
+  checkRadius: {x: 0, y: 0}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -4268,7 +4272,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.703125, y: 3.9765625}
+    oldSize: {x: 0.7785714, y: 1.8178571}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
