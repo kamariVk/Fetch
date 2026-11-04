@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float movementSpeed = 5f;
     private Rigidbody2D rigidbody;
+    private Animator animator;
     private int moveDirection = 0;
     public InputAction jumpAction;
     public float jumpForce;
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         jumpAction.Enable();
     }
 
@@ -38,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(moveDirection, 1, 1); //bruges til at vende spilleren 180 grader så det ligner han vender sig når han går til venstre og højre
         }
-
+        animator.SetBool("isWalking", moveDirection != 0);
         float horizontalSpeed = moveDirection * movementSpeed;
         rigidbody.linearVelocity = new Vector2(horizontalSpeed, rigidbody.linearVelocity.y);
 
