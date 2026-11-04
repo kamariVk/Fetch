@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -70,6 +71,30 @@ public class InventoryController : MonoBehaviour
 
         Debug.Log("Inventory is full");
         return false;
+    }
+
+    public bool RemoveItem(string itemName)
+    {
+        foreach (Slot slot in slots)
+        {
+            if (!slot.IsEmpty() && slot.currentItem.name == itemName)
+            {
+                slot.ClearItem();
+                savedItems.Remove(itemName);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool RemoveItem(GameObject item)
+    {
+        return RemoveItem(item.name);
+    }
+    public GameObject GetSelectedItem()
+    {
+        Slot slot = slots[selectedIndex];
+        return slot.IsEmpty()? null : slot.currentItem;
     }
 
     void SelectSlot(int index)
