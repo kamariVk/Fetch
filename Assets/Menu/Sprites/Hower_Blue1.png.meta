@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: fa60345cad6945747a108bb44a56b3fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4985811704693137955
+    second: Hower_Blue1_0
+  - first:
+      213: 5929005386296407030
+    second: Hower_Blue1_1
+  - first:
+      213: -4447678902503398476
+    second: Hower_Blue1_2
+  - first:
+      213: -8105799351186584805
+    second: Hower_Blue1_3
+  - first:
+      213: -6990174619983150511
+    second: Hower_Blue1_4
+  - first:
+      213: -4318693065947007125
+    second: Hower_Blue1_5
+  - first:
+      213: -2588481698015062715
+    second: Hower_Blue1_6
+  - first:
+      213: -3536092063956493330
+    second: Hower_Blue1_7
+  - first:
+      213: 577117765560921472
+    second: Hower_Blue1_8
+  - first:
+      213: -4619006303467598544
+    second: Hower_Blue1_9
+  - first:
+      213: 7157596154460585877
+    second: Hower_Blue1_10
+  - first:
+      213: -1646295351322720673
+    second: Hower_Blue1_11
+  - first:
+      213: 7044098938037951676
+    second: Hower_Blue1_12
+  - first:
+      213: -7019020312110249815
+    second: Hower_Blue1_13
+  - first:
+      213: -6143995999148420761
+    second: Hower_Blue1_14
+  - first:
+      213: -2449224507977782707
+    second: Hower_Blue1_15
+  - first:
+      213: -8141032401045687374
+    second: Hower_Blue1_16
+  - first:
+      213: -562875509922948061
+    second: Hower_Blue1_17
+  - first:
+      213: 2782217033251349502
+    second: Hower_Blue1_18
+  - first:
+      213: 6905265249188205110
+    second: Hower_Blue1_19
+  - first:
+      213: 222224768932913468
+    second: Hower_Blue1_20
+  - first:
+      213: -2063586259290483803
+    second: Hower_Blue1_21
+  - first:
+      213: 8382757242111589817
+    second: Hower_Blue1_22
+  - first:
+      213: -1540410920203151947
+    second: Hower_Blue1_23
+  - first:
+      213: -5750481855384869116
+    second: Hower_Blue1_24
+  - first:
+      213: -292529504161986690
+    second: Hower_Blue1_25
+  - first:
+      213: 3608704537959906525
+    second: Hower_Blue1_26
+  - first:
+      213: -5844177750123390390
+    second: Hower_Blue1_27
+  - first:
+      213: -2226878948570882513
+    second: Hower_Blue1_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hower_Blue1_0
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 606
+        width: 1398
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddd7c8aba6decab0800000000000000
+      internalID: -4985811704693137955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1249
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f333915cfe084250800000000000000
+      internalID: 5929005386296407030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_2
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1268
+        width: 129
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3294d5a9ba642c0800000000000000
+      internalID: -4447678902503398476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_3
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1295
+        width: 41
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b8eebbf6a628f80800000000000000
+      internalID: -8105799351186584805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_4
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1317
+        width: 36
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15204f9f739edfe90800000000000000
+      internalID: -6990174619983150511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1315
+        width: 40
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b673946b98be014c0800000000000000
+      internalID: -4318693065947007125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_6
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1313
+        width: 63
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545563a2c9dd31cd0800000000000000
+      internalID: -2588481698015062715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_7
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1329
+        width: 36
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb9bcab0074deec0800000000000000
+      internalID: -3536092063956493330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_8
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1312
+        width: 88
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d63d1dc85520800800000000000000
+      internalID: 577117765560921472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_9
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1327
+        width: 61
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d06825d3ef5efb0800000000000000
+      internalID: -4619006303467598544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_10
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1307
+        width: 138
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f3358a7c3e45360800000000000000
+      internalID: 7157596154460585877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_11
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1265
+        width: 117
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f564805b91f2729e0800000000000000
+      internalID: -1646295351322720673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1167
+        width: 230
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc5574b9aaa1c160800000000000000
+      internalID: 7044098938037951676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_13
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1180
+        width: 277
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8ca69e63e679e90800000000000000
+      internalID: -7019020312110249815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1042
+        width: 176
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7615659e0342cbaa0800000000000000
+      internalID: -6143995999148420761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_15
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1067
+        width: 175
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4aadca594b920ed0800000000000000
+      internalID: -2449224507977782707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_16
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 952
+        width: 323
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3f9be0a2e350f80800000000000000
+      internalID: -8141032401045687374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 895
+        width: 282
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c964ab4b34038f0800000000000000
+      internalID: -562875509922948061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_18
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 827
+        width: 128
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3ecf2a6ab6c9620800000000000000
+      internalID: 2782217033251349502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 699
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63256b1982e64df50800000000000000
+      internalID: 6905265249188205110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_20
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 476
+        width: 118
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c312a8cff30851300800000000000000
+      internalID: 222224768932913468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_21
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 591
+        width: 126
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a31d930b3bac53e0800000000000000
+      internalID: -2063586259290483803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_22
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 673
+        width: 237
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdf4664c49855470800000000000000
+      internalID: 8382757242111589817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_23
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 516
+        width: 37
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b59825fd6c5f9ae0800000000000000
+      internalID: -1540410920203151947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_24
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 401
+        width: 45
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407a47a483f2230b0800000000000000
+      internalID: -5750481855384869116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_25
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 480
+        width: 36
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e778a1247f9b0fbf0800000000000000
+      internalID: -292529504161986690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_26
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 398
+        width: 48
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcb07458a1b41230800000000000000
+      internalID: 3608704537959906525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_27
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 492
+        width: 105
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a57afcc4f45eea0800000000000000
+      internalID: -5844177750123390390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_Blue1_28
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 450
+        width: 157
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e13a015698811e0800000000000000
+      internalID: -2226878948570882513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hower_Blue1_0: -4985811704693137955
+      Hower_Blue1_1: 5929005386296407030
+      Hower_Blue1_10: 7157596154460585877
+      Hower_Blue1_11: -1646295351322720673
+      Hower_Blue1_12: 7044098938037951676
+      Hower_Blue1_13: -7019020312110249815
+      Hower_Blue1_14: -6143995999148420761
+      Hower_Blue1_15: -2449224507977782707
+      Hower_Blue1_16: -8141032401045687374
+      Hower_Blue1_17: -562875509922948061
+      Hower_Blue1_18: 2782217033251349502
+      Hower_Blue1_19: 6905265249188205110
+      Hower_Blue1_2: -4447678902503398476
+      Hower_Blue1_20: 222224768932913468
+      Hower_Blue1_21: -2063586259290483803
+      Hower_Blue1_22: 8382757242111589817
+      Hower_Blue1_23: -1540410920203151947
+      Hower_Blue1_24: -5750481855384869116
+      Hower_Blue1_25: -292529504161986690
+      Hower_Blue1_26: 3608704537959906525
+      Hower_Blue1_27: -5844177750123390390
+      Hower_Blue1_28: -2226878948570882513
+      Hower_Blue1_3: -8105799351186584805
+      Hower_Blue1_4: -6990174619983150511
+      Hower_Blue1_5: -4318693065947007125
+      Hower_Blue1_6: -2588481698015062715
+      Hower_Blue1_7: -3536092063956493330
+      Hower_Blue1_8: 577117765560921472
+      Hower_Blue1_9: -4619006303467598544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

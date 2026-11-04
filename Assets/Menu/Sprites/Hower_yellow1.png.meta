@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 2f73df59fe1d91f449f3f10c1dea7ad5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7580370658740552847
+    second: Hower_yellow1_0
+  - first:
+      213: -190424396989115604
+    second: Hower_yellow1_1
+  - first:
+      213: 366009819526307836
+    second: Hower_yellow1_2
+  - first:
+      213: 5756886092505200432
+    second: Hower_yellow1_3
+  - first:
+      213: 7850343384375405953
+    second: Hower_yellow1_4
+  - first:
+      213: -7021475008119640019
+    second: Hower_yellow1_5
+  - first:
+      213: 5357686192712004513
+    second: Hower_yellow1_6
+  - first:
+      213: -690655972054425089
+    second: Hower_yellow1_7
+  - first:
+      213: -5358880634977516732
+    second: Hower_yellow1_8
+  - first:
+      213: -3041657665051016726
+    second: Hower_yellow1_9
+  - first:
+      213: 7320239478146640602
+    second: Hower_yellow1_10
+  - first:
+      213: 2382021802082246166
+    second: Hower_yellow1_11
+  - first:
+      213: -5945480230881152851
+    second: Hower_yellow1_12
+  - first:
+      213: -5526144253423895039
+    second: Hower_yellow1_13
+  - first:
+      213: 8805463448584397214
+    second: Hower_yellow1_14
+  - first:
+      213: -7610303780085070549
+    second: Hower_yellow1_15
+  - first:
+      213: -5525424324162279420
+    second: Hower_yellow1_16
+  - first:
+      213: -6438651948804938362
+    second: Hower_yellow1_17
+  - first:
+      213: 3887842704022645160
+    second: Hower_yellow1_18
+  - first:
+      213: 564803419597971003
+    second: Hower_yellow1_19
+  - first:
+      213: -2721761145225752519
+    second: Hower_yellow1_20
+  - first:
+      213: -392985133079661371
+    second: Hower_yellow1_21
+  - first:
+      213: 2207490093964900727
+    second: Hower_yellow1_22
+  - first:
+      213: -4606002938937010698
+    second: Hower_yellow1_23
+  - first:
+      213: -5035461963864878377
+    second: Hower_yellow1_24
+  - first:
+      213: -590047407460747893
+    second: Hower_yellow1_25
+  - first:
+      213: -5065855438915328940
+    second: Hower_yellow1_26
+  - first:
+      213: 371613308459477166
+    second: Hower_yellow1_27
+  - first:
+      213: 5701762784248502541
+    second: Hower_yellow1_28
+  - first:
+      213: -6535098369034359385
+    second: Hower_yellow1_29
+  - first:
+      213: -7463692090564757066
+    second: Hower_yellow1_30
+  - first:
+      213: -2339822303762460200
+    second: Hower_yellow1_31
+  - first:
+      213: 5792857792939418564
+    second: Hower_yellow1_32
+  - first:
+      213: 3300642085205034080
+    second: Hower_yellow1_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hower_yellow1_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 899
+        width: 225
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84460c93f2e23960800000000000000
+      internalID: 7580370658740552847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 940
+        width: 112
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2355e4150a7b5df0800000000000000
+      internalID: -190424396989115604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 964
+        width: 146
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff9b2dddf3541500800000000000000
+      internalID: 366009819526307836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_3
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 990
+        width: 71
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037b82c566194ef40800000000000000
+      internalID: 5756886092505200432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_4
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 995
+        width: 98
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18da88617b502fc60800000000000000
+      internalID: 7850343384375405953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_5
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1000
+        width: 74
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20feb57ea5be8e90800000000000000
+      internalID: -7021475008119640019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_6
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1020
+        width: 49
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a33d9eb4335a5a40800000000000000
+      internalID: 5357686192712004513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_7
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1026
+        width: 48
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1a1bb7d0c4a66f0800000000000000
+      internalID: -690655972054425089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_8
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1038
+        width: 62
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443027e747e61a5b0800000000000000
+      internalID: -5358880634977516732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_9
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1047
+        width: 44
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae14a42187cd9c5d0800000000000000
+      internalID: -3041657665051016726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_10
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1033
+        width: 101
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaa8b56507b69560800000000000000
+      internalID: 7320239478146640602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_11
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1014
+        width: 62
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e19506534ae0120800000000000000
+      internalID: 2382021802082246166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_12
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 997
+        width: 120
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0b8330b396d7da0800000000000000
+      internalID: -5945480230881152851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 1435
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e3a1d84113f43b0800000000000000
+      internalID: -5526144253423895039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_14
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 914
+        width: 149
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e912f876a5a433a70800000000000000
+      internalID: 8805463448584397214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 806
+        width: 125
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25873b7805c26690800000000000000
+      internalID: -7610303780085070549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_16
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 821
+        width: 137
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40821052adfb153b0800000000000000
+      internalID: -5525424324162279420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 734
+        width: 260
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685ea1f7a2055a6a0800000000000000
+      internalID: -6438651948804938362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 584
+        width: 109
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a92dd3375464f530800000000000000
+      internalID: 3887842704022645160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_19
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 653
+        width: 113
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e1019b7b596d700800000000000000
+      internalID: 564803419597971003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 347
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930db5fa8ac5a3ad0800000000000000
+      internalID: -2721761145225752519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_21
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 489
+        width: 162
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4f6c48a16db8af0800000000000000
+      internalID: -392985133079661371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_22
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 353
+        width: 77
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779b8ff6b8492ae10800000000000000
+      internalID: 2207490093964900727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_23
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 207
+        width: 110
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5114e0bb03410c0800000000000000
+      internalID: -4606002938937010698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_24
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 140
+        width: 112
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2d7dbd5027e1ab0800000000000000
+      internalID: -5035461963864878377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_25
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 260
+        width: 97
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8579a5520bbfc7f0800000000000000
+      internalID: -590047407460747893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_26
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 231
+        width: 163
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454a8ff715772b9b0800000000000000
+      internalID: -5065855438915328940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_27
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 381
+        width: 143
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8e88cc55c382500800000000000000
+      internalID: 371613308459477166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_28
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 247
+        width: 69
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d099ca40b0bb02f40800000000000000
+      internalID: 5701762784248502541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_29
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 107
+        width: 83
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ade87568aaae45a0800000000000000
+      internalID: -6535098369034359385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_30
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 190
+        width: 36
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9bef48693ab6890800000000000000
+      internalID: -7463692090564757066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_31
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 113
+        width: 42
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1d3baf208478fd0800000000000000
+      internalID: -2339822303762460200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_32
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 206
+        width: 52
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3e186887d546050800000000000000
+      internalID: 5792857792939418564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hower_yellow1_33
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 256
+        width: 47
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064c95b2d7c3ecd20800000000000000
+      internalID: 3300642085205034080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hower_yellow1_0: 7580370658740552847
+      Hower_yellow1_1: -190424396989115604
+      Hower_yellow1_10: 7320239478146640602
+      Hower_yellow1_11: 2382021802082246166
+      Hower_yellow1_12: -5945480230881152851
+      Hower_yellow1_13: -5526144253423895039
+      Hower_yellow1_14: 8805463448584397214
+      Hower_yellow1_15: -7610303780085070549
+      Hower_yellow1_16: -5525424324162279420
+      Hower_yellow1_17: -6438651948804938362
+      Hower_yellow1_18: 3887842704022645160
+      Hower_yellow1_19: 564803419597971003
+      Hower_yellow1_2: 366009819526307836
+      Hower_yellow1_20: -2721761145225752519
+      Hower_yellow1_21: -392985133079661371
+      Hower_yellow1_22: 2207490093964900727
+      Hower_yellow1_23: -4606002938937010698
+      Hower_yellow1_24: -5035461963864878377
+      Hower_yellow1_25: -590047407460747893
+      Hower_yellow1_26: -5065855438915328940
+      Hower_yellow1_27: 371613308459477166
+      Hower_yellow1_28: 5701762784248502541
+      Hower_yellow1_29: -6535098369034359385
+      Hower_yellow1_3: 5756886092505200432
+      Hower_yellow1_30: -7463692090564757066
+      Hower_yellow1_31: -2339822303762460200
+      Hower_yellow1_32: 5792857792939418564
+      Hower_yellow1_33: 3300642085205034080
+      Hower_yellow1_4: 7850343384375405953
+      Hower_yellow1_5: -7021475008119640019
+      Hower_yellow1_6: 5357686192712004513
+      Hower_yellow1_7: -690655972054425089
+      Hower_yellow1_8: -5358880634977516732
+      Hower_yellow1_9: -3041657665051016726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

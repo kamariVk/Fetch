@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 8b3db63ab89f0f3448de32d1595b6113
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4229949770913412360
+    second: Doodles2_0
+  - first:
+      213: 5104600514281192993
+    second: Doodles2_1
+  - first:
+      213: -54773371439320862
+    second: Doodles2_2
+  - first:
+      213: 2895945952942557225
+    second: Doodles2_3
+  - first:
+      213: -8927682462170093479
+    second: Doodles2_4
+  - first:
+      213: 7016159956171808760
+    second: Doodles2_5
+  - first:
+      213: -200800998696211008
+    second: Doodles2_6
+  - first:
+      213: 1713689959408834045
+    second: Doodles2_7
+  - first:
+      213: -6047232834254118151
+    second: Doodles2_8
+  - first:
+      213: -3740030511158070101
+    second: Doodles2_9
+  - first:
+      213: 3615641727423474807
+    second: Doodles2_10
+  - first:
+      213: -4244550243278044354
+    second: Doodles2_11
+  - first:
+      213: 7122536290262085398
+    second: Doodles2_12
+  - first:
+      213: -1512407438638694535
+    second: Doodles2_13
+  - first:
+      213: -5534355217917891749
+    second: Doodles2_14
+  - first:
+      213: -3515828643099438893
+    second: Doodles2_15
+  - first:
+      213: 1093754711184271216
+    second: Doodles2_16
+  - first:
+      213: -2049432124993094008
+    second: Doodles2_17
+  - first:
+      213: 3639094517023527354
+    second: Doodles2_18
+  - first:
+      213: 3774239451561179754
+    second: Doodles2_19
+  - first:
+      213: -1582661273482483464
+    second: Doodles2_20
+  - first:
+      213: 2203768591348294600
+    second: Doodles2_21
+  - first:
+      213: -7394485190177225013
+    second: Doodles2_22
+  - first:
+      213: 7534583533970118431
+    second: Doodles2_23
+  - first:
+      213: -3150587785060070568
+    second: Doodles2_24
+  - first:
+      213: 1854942168044018960
+    second: Doodles2_25
+  - first:
+      213: 5297230202026107349
+    second: Doodles2_26
+  - first:
+      213: 6999242705264260921
+    second: Doodles2_27
+  - first:
+      213: -7140675713341290266
+    second: Doodles2_28
+  - first:
+      213: -6691839898006626073
+    second: Doodles2_29
+  - first:
+      213: -1114848086653946018
+    second: Doodles2_30
+  - first:
+      213: 1308013331258641550
+    second: Doodles2_31
+  - first:
+      213: -6639089480663782695
+    second: Doodles2_32
+  - first:
+      213: -6383756682456845501
+    second: Doodles2_33
+  - first:
+      213: -4961356252191166283
+    second: Doodles2_34
+  - first:
+      213: 9088152426580109298
+    second: Doodles2_35
+  - first:
+      213: 1144844364312695782
+    second: Doodles2_36
+  - first:
+      213: 5111494249934217979
+    second: Doodles2_37
+  - first:
+      213: 4564325885615369594
+    second: Doodles2_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Doodles2_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3192
+        width: 328
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa06f638133c45c0800000000000000
+      internalID: -4229949770913412360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3116
+        width: 103
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12eb1065f1f27d640800000000000000
+      internalID: 5104600514281192993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3430
+        width: 207
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0753ca8e76d3ff0800000000000000
+      internalID: -54773371439320862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_3
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 3204
+        width: 214
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9280fd53087703820800000000000000
+      internalID: 2895945952942557225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_4
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 3278
+        width: 211
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958eddef9108a1480800000000000000
+      internalID: -8927682462170093479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_5
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3215
+        width: 224
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffd0f29e486e5160800000000000000
+      internalID: 7016159956171808760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_6
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 3182
+        width: 129
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd2b2a3e8c963df0800000000000000
+      internalID: -200800998696211008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_7
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 3120
+        width: 207
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df597b540ff38c710800000000000000
+      internalID: 1713689959408834045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_8
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 3118
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f26430e6c9e31ca0800000000000000
+      internalID: -6047232834254118151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_9
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 2524
+        width: 218
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4fc4dc01eb81cc0800000000000000
+      internalID: -3740030511158070101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_10
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 2586
+        width: 320
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ce72e9ef65d2230800000000000000
+      internalID: 3615641727423474807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_11
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 3145
+        width: 105
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e334d16da045815c0800000000000000
+      internalID: -4244550243278044354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_12
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 3104
+        width: 187
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f66e8e40558d260800000000000000
+      internalID: 7122536290262085398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3018
+        width: 286
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f38489279d20be0800000000000000
+      internalID: -1512407438638694535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_14
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 3040
+        width: 147
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bac2760450233b0800000000000000
+      internalID: -5534355217917891749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_15
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 2948
+        width: 167
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d01aec0a74453fc0800000000000000
+      internalID: -3515828643099438893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2732
+        width: 45
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0776c876d1ccd2f00800000000000000
+      internalID: 1093754711184271216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_17
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 2831
+        width: 120
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e33863754fe83e0800000000000000
+      internalID: -2049432124993094008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_18
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2424
+        width: 193
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab15247be29a08230800000000000000
+      internalID: 3639094517023527354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_19
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2502
+        width: 65
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ab19fc8cac06430800000000000000
+      internalID: 3774239451561179754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_20
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 2500
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f82f4205f1490ae0800000000000000
+      internalID: -1582661273482483464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_21
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2480
+        width: 156
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c36a769bdb559e10800000000000000
+      internalID: 2203768591348294600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_22
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 2353
+        width: 130
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6899ea5e2816990800000000000000
+      internalID: -7394485190177225013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_23
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2128
+        width: 204
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17dbc0edc7309860800000000000000
+      internalID: 7534583533970118431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_24
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 2336
+        width: 77
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b4fcd1a1dd644d0800000000000000
+      internalID: -3150587785060070568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_25
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 2320
+        width: 50
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d182de2141eb910800000000000000
+      internalID: 1854942168044018960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_26
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 2262
+        width: 108
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1ac358dca838940800000000000000
+      internalID: 5297230202026107349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_27
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 2089
+        width: 197
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9373508282e422160800000000000000
+      internalID: 6999242705264260921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_28
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 2175
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8880a854937ec90800000000000000
+      internalID: -7140675713341290266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_29
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 2151
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e06781511fc123a0800000000000000
+      internalID: -6691839898006626073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_30
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2151
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57b77862934780f0800000000000000
+      internalID: -1114848086653946018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_31
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 2079
+        width: 119
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c8523d13ff62210800000000000000
+      internalID: 1308013331258641550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_32
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1313
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daa001fa473dd3a0800000000000000
+      internalID: -6639089480663782695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_33
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 1042
+        width: 309
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34332a1be175867a0800000000000000
+      internalID: -6383756682456845501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_34
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 243
+        width: 542
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b07bf766c8b52bb0800000000000000
+      internalID: -4961356252191166283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_35
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 183
+        width: 226
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f769ea1b7a9f1e70800000000000000
+      internalID: 9088152426580109298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_36
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 407
+        width: 192
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e357f932ed43ef00800000000000000
+      internalID: 1144844364312695782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_37
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 64
+        width: 1179
+        height: 978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2e7ce30fcafe640800000000000000
+      internalID: 5111494249934217979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doodles2_38
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 72
+        width: 251
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d693bc53eb75f30800000000000000
+      internalID: 4564325885615369594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Doodles2_0: -4229949770913412360
+      Doodles2_1: 5104600514281192993
+      Doodles2_10: 3615641727423474807
+      Doodles2_11: -4244550243278044354
+      Doodles2_12: 7122536290262085398
+      Doodles2_13: -1512407438638694535
+      Doodles2_14: -5534355217917891749
+      Doodles2_15: -3515828643099438893
+      Doodles2_16: 1093754711184271216
+      Doodles2_17: -2049432124993094008
+      Doodles2_18: 3639094517023527354
+      Doodles2_19: 3774239451561179754
+      Doodles2_2: -54773371439320862
+      Doodles2_20: -1582661273482483464
+      Doodles2_21: 2203768591348294600
+      Doodles2_22: -7394485190177225013
+      Doodles2_23: 7534583533970118431
+      Doodles2_24: -3150587785060070568
+      Doodles2_25: 1854942168044018960
+      Doodles2_26: 5297230202026107349
+      Doodles2_27: 6999242705264260921
+      Doodles2_28: -7140675713341290266
+      Doodles2_29: -6691839898006626073
+      Doodles2_3: 2895945952942557225
+      Doodles2_30: -1114848086653946018
+      Doodles2_31: 1308013331258641550
+      Doodles2_32: -6639089480663782695
+      Doodles2_33: -6383756682456845501
+      Doodles2_34: -4961356252191166283
+      Doodles2_35: 9088152426580109298
+      Doodles2_36: 1144844364312695782
+      Doodles2_37: 5111494249934217979
+      Doodles2_38: 4564325885615369594
+      Doodles2_4: -8927682462170093479
+      Doodles2_5: 7016159956171808760
+      Doodles2_6: -200800998696211008
+      Doodles2_7: 1713689959408834045
+      Doodles2_8: -6047232834254118151
+      Doodles2_9: -3740030511158070101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
