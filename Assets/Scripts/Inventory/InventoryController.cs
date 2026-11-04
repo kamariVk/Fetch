@@ -91,6 +91,11 @@ public class InventoryController : MonoBehaviour
     {
         return RemoveItem(item.name);
     }
+    public GameObject GetSelectedItem()
+    {
+        Slot slot = slots[selectedIndex];
+        return slot.IsEmpty()? null : slot.currentItem;
+    }
 
     void SelectSlot(int index)
     {

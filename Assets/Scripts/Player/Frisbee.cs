@@ -9,6 +9,8 @@ public class Frisbee : MonoBehaviour
     private Quaternion startLocalRotation; //Quaternion er enheden den bruger til at gemme rotation
     private bool isHoldingFrisbee = true;
     private InventoryController inventory;
+    private SpriteRenderer sr;
+
 
 
     void Awake()
@@ -17,11 +19,16 @@ public class Frisbee : MonoBehaviour
         startLocalPosition = transform.localPosition;
         startLocalRotation = transform.localRotation;
         inventory = FindFirstObjectByType<InventoryController>();
+        sr = GetComponentInChildren<SpriteRenderer>();
+
     }
 
     void Update()
     {
-       if (Mouse.current.leftButton.wasPressedThisFrame && isHoldingFrisbee)
+        bool isSelected = inventory.GetSelectedItem() == gameObject;
+        if (isHoldingFrisbee) sr.enabled = isSelected;
+
+       if (Mouse.current.leftButton.wasPressedThisFrame && isHoldingFrisbee && isSelected)
         {
             isHoldingFrisbee = false;
             Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();

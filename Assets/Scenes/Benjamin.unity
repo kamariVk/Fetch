@@ -2600,6 +2600,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7328633764650321654, guid: 11fcf3e2ae549194eab147dcce64864c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 16.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328633764650321654, guid: 11fcf3e2ae549194eab147dcce64864c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 12.51
+      objectReference: {fileID: 0}
     - target: {fileID: 7513123796432457509, guid: 11fcf3e2ae549194eab147dcce64864c, type: 3}
       propertyPath: m_Name
       value: player 1
