@@ -38,6 +38,14 @@ public class Slot : MonoBehaviour
             icon.sprite = sprite;
             icon.enabled = true;
         }
+     
+    }
+
+    public void ClearItem()
+    {
+        currentItem = null;
+        icon.sprite = null;
+        icon.enabled = false;
     }
 
     public void SetSelected(bool selected)

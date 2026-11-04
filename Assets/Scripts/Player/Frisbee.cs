@@ -8,12 +8,15 @@ public class Frisbee : MonoBehaviour
     private Vector3 startLocalPosition;
     private Quaternion startLocalRotation; //Quaternion er enheden den bruger til at gemme rotation
     private bool isHoldingFrisbee = true;
+    private InventoryController inventory;
+
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         startLocalPosition = transform.localPosition;
         startLocalRotation = transform.localRotation;
+        inventory = FindFirstObjectByType<InventoryController>();
     }
 
     void Update()
@@ -25,6 +28,7 @@ public class Frisbee : MonoBehaviour
             Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
             Vector2 retning = mouseWorldPosition - transform.position;
 
+            inventory.RemoveItem(gameObject);
             transform.SetParent(null);
         rb.bodyType = RigidbodyType2D.Dynamic;
         rb.AddForce(retning.normalized * throwStrength, ForceMode2D.Impulse);
@@ -47,5 +51,10 @@ public class Frisbee : MonoBehaviour
         transform.localPosition = startLocalPosition;
         transform.localRotation = startLocalRotation;
         isHoldingFrisbee = true;
+
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        inventory = player.GetComponent<InventoryController>();
+        inventory.AddItem(gameObject);
     }
 }
