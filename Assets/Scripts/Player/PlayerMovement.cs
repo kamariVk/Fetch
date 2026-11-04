@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce;
     public bool isGrounded;
     public Transform groundCheck;
-    public Vector2 checkRadius;
+    public float checkRadius = 1f;
     public LayerMask groundLayer;
     public float jumpCutmultiplier;
   
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         float horizontalSpeed = moveDirection * movementSpeed;
         rigidbody.linearVelocity = new Vector2(horizontalSpeed, rigidbody.linearVelocity.y);
 
-        isGrounded = Physics2D.OverlapBox(groundCheck.position, checkRadius, groundLayer);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
 
         if (jumpAction.triggered && isGrounded)
         {
