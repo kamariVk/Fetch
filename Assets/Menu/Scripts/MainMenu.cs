@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     [Tooltip("Navnet på den scene, Start-knappen skal åbne")]
-    public string sceneToLoad = "Level 1 Demo";
+    public string sceneToLoad = "prequal";
 
     public void StartGame()
     {

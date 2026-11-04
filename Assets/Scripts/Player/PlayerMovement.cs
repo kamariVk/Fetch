@@ -62,4 +62,12 @@ public class PlayerMovement : MonoBehaviour
     {
         rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocity.x, jumpForce);
     }
+
+    // Viser ground check-cirklen i Scene-vinduet, når spilleren er valgt
+    void OnDrawGizmosSelected()
+    {
+        if (groundCheck == null) return;
+        Gizmos.color = isGrounded ? Color.green : Color.red;
+        Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
+    }
 }
