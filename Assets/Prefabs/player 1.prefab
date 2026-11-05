@@ -272,6 +272,7 @@ GameObject:
   - component: {fileID: 2493581757244979577}
   - component: {fileID: 4507746271065749730}
   - component: {fileID: 3093701462433036158}
+  - component: {fileID: 2916556435684802628}
   m_Layer: 0
   m_Name: player 1
   m_TagString: Player
@@ -666,3 +667,16 @@ MonoBehaviour:
   inventoryUI: {fileID: 0}
   startingItems: []
   carriedItems: []
+--- !u!114 &2916556435684802628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513123796432457509}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b41a0e28fb19f548afbe437eb217c09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Frisbee
+  throwStrength: 10
