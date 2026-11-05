@@ -8,6 +8,9 @@ public class Grapple : MonoBehaviour
     DistanceJoint2D dj;
     public LayerMask grappleableLayer;
     public bool isGrappling = false;
+    private InventoryController inventory;
+
+
 
 
     void Start()
@@ -17,6 +20,7 @@ public class Grapple : MonoBehaviour
         dj = GetComponent<DistanceJoint2D>();
         dj.enabled = false;
         lr.enabled = false;
+        inventory = GetComponent<InventoryController>();
 
     }
 
@@ -28,6 +32,9 @@ public class Grapple : MonoBehaviour
             Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(Physics2D.OverlapCircle(point, 0.1f, grappleableLayer) != null)
             {
+                GameObject selected = inventory.GetSelectedItem();
+                if (selected == null || selected.name != "Halsbånd") return;
+
                 isGrappling = true;
                 lr.enabled = true;
                 lr.SetPosition(0, transform.position);
