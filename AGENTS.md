@@ -2,7 +2,7 @@
 - Project name: Fetch
 - Unity version: Unity 6000.3.22f1
 - Active game object:
-  - Name: Main Camera
-  - Tag: MainCamera
+  - Name: deathZone
+  - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
