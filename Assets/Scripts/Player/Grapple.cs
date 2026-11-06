@@ -33,7 +33,7 @@ public class Grapple : MonoBehaviour
             if(Physics2D.OverlapCircle(point, 0.1f, grappleableLayer) != null)
             {
                 GameObject selected = inventory.GetSelectedItem();
-                if (selected == null || selected.name != "Halsbånd") return;
+                if (selected == null || selected.name != "DogLeash") return;
 
                 isGrappling = true;
                 lr.enabled = true;

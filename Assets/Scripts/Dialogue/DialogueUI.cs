@@ -7,7 +7,6 @@ public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private GameObject dialoguebox;
     [SerializeField] private TMP_Text dialogueText;
-    [SerializeField] private DialogueObject testDialogue;
 
     private TypewriterEffect typewriterEffect;
 
