@@ -10,6 +10,7 @@ public class Grapple : MonoBehaviour
     public bool isGrappling = false;
     public MonoBehaviour movementScript;   // træk Player Movement herind
     public float swingForce = 20f;
+    public float maxDistance = 6f;
     private InventoryController inventory;
     float swingDir;
 
@@ -38,6 +39,7 @@ public class Grapple : MonoBehaviour
             {
                 GameObject selected = inventory.GetSelectedItem();
                 if (selected == null || !selected.name.StartsWith("DogLeash")) return;
+                if (Vector2.Distance(transform.position, point) > maxDistance) return;
 
                 isGrappling = true;
 
