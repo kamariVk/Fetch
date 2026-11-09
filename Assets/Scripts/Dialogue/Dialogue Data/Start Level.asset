@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Start Level
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - I am scared.
+  - I am scared
   - 'BELLA, WHERE ARE YOU!
 
 '

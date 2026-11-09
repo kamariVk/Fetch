@@ -3,60 +3,81 @@ using UnityEngine.InputSystem;
 
 public class Grapple : MonoBehaviour
 {
-    Rigidbody2D rb; 
+    Rigidbody2D rb;
     LineRenderer lr;
     DistanceJoint2D dj;
     public LayerMask grappleableLayer;
     public bool isGrappling = false;
+    public MonoBehaviour movementScript;   // træk Player Movement herind
+    public float swingForce = 20f;
     private InventoryController inventory;
-
-
-
+    float swingDir;
 
     void Start()
     {
+        movementScript = GetComponent<PlayerMovement>();
         rb = GetComponent<Rigidbody2D>();
         lr = GetComponent<LineRenderer>();
         dj = GetComponent<DistanceJoint2D>();
-        dj.enabled = false;
-        lr.enabled = false;
         inventory = GetComponent<InventoryController>();
 
+        dj.autoConfigureDistance = false;
+        dj.autoConfigureConnectedAnchor = false;
+        dj.enabled = false;
+        lr.enabled = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1))
         {
             Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if(Physics2D.OverlapCircle(point, 0.1f, grappleableLayer) != null)
+            point.z = 0;
+
+            if (Physics2D.OverlapCircle(point, 0.1f, grappleableLayer) != null)
             {
                 GameObject selected = inventory.GetSelectedItem();
-                if (selected == null || selected.name != "DogLeash") return;
+                if (selected == null || !selected.name.StartsWith("DogLeash")) return;
 
                 isGrappling = true;
-                lr.enabled = true;
-                lr.SetPosition(0, transform.position);
-                lr.SetPosition(1, point);
 
                 dj.connectedAnchor = point;
                 dj.distance = Vector2.Distance(transform.position, point);
                 dj.enabled = true;
-                rb.AddForce(new Vector2(Mathf.Sign(point.x - transform.position.x) * 15f, 5f), ForceMode2D.Impulse);
+                swingDir = Mathf.Sign(point.x - transform.position.x);
+
+                lr.enabled = true;
+                if (movementScript != null) movementScript.enabled = false;
             }
         }
-        if(Input.GetMouseButtonUp(1))
+
+        if (Input.GetMouseButtonUp(1) && isGrappling)
         {
             isGrappling = false;
             lr.enabled = false;
             dj.enabled = false;
+            if (movementScript != null) movementScript.enabled = true;
         }
-        if(isGrappling)
+
+        if (isGrappling)
         {
-            lr.enabled = true;
             lr.SetPosition(0, transform.position);
-            lr.SetPosition(1, Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            lr.SetPosition(1, dj.connectedAnchor);
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (!isGrappling) return;
+
+        Vector2 toAnchor = dj.connectedAnchor - rb.position;
+        Vector2 tangent = Vector2.Perpendicular(toAnchor).normalized;
+        if (Mathf.Sign(tangent.x) != swingDir) tangent = -tangent;
+
+        // skub kun langs svinget, mens hun er under punktet
+        if (rb.position.y < dj.connectedAnchor.y)
+        {
+            rb.AddForce(tangent * swingForce);
         }
     }
 }
