@@ -17,7 +17,7 @@ public class SceneTransition : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Bella rammer scene-skiftet: hun forsvinder, og tager en kastet frisbee med sig
-        BellaFetch bella = collision.GetComponentInParent<BellaFetch>();
+        BellaPrequel bella = collision.GetComponentInParent<BellaPrequel>();
         if (bella != null)
         {
             Frisbee looseFrisbee = FindFirstObjectByType<Frisbee>();

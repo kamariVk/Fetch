@@ -27,7 +27,7 @@ public class BellaMovement : MonoBehaviour
  
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (hasStarted) return;               // er hun allerede i gang, så ignorer
+        if (hasStarted) return;              
 
         if (other.CompareTag("Player"))       
         {
@@ -60,10 +60,9 @@ public class BellaMovement : MonoBehaviour
         //    Sin(t * PI) er 0 ved start, 1 midtvejs og 0 ved landing, altså en bue
         newPos.y += Mathf.Sin(t * Mathf.PI) * hopHeight;
 
-
+      
         rb.MovePosition(newPos);
-
-        // 7. Er hun landet?
+ 
         if (t >= 1f)
         {
             isWaiting = true;                                
@@ -73,7 +72,7 @@ public class BellaMovement : MonoBehaviour
         
     }
 
-   
+    
     private void MoveToNextPosition()
     {
         currentStopPosition++;
@@ -87,5 +86,19 @@ public class BellaMovement : MonoBehaviour
         isWaiting = false;           
     }
 
-  
+ 
+    void OnDrawGizmos()
+    {
+        if (positions == null) return;
+
+        Gizmos.color = Color.yellow;
+        Vector3 previous = transform.position;
+        foreach (Transform p in positions)
+        {
+            if (p == null) continue;
+            Gizmos.DrawLine(previous, p.position);
+            Gizmos.DrawWireSphere(p.position, 0.2f);
+            previous = p.position;
+        }
+    }
 }
