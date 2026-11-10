@@ -4,28 +4,32 @@ public class Bark : MonoBehaviour
 {
     public AudioClip[] barkSounds;
     public float minWait = 8f;
-    public float maxWait = 15f;
+    public float maxWait = 20f;
+    public float minPitch = 0.75f;
+    public float maxPitch = 0.95f;
 
     AudioSource source;
     float timer;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         source = GetComponent<AudioSource>();
         timer = Random.Range(minWait, maxWait);
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (barkSounds.Length == 0) return;
+
         timer -= Time.deltaTime;
         if (timer <= 0f)
         {
-            source.pitch = Random.Range(0.75f, 0.95f);
-            source.PlayOneShot(barkSounds[Random.Range(0, barkSounds.Length)]);
+            source.pitch = Random.Range(minPitch, maxPitch);
+            source.panStereo = Random.Range(-0.8f, 0.8f);
+            float volume = Random.Range(0.4f, 1f);
+            source.PlayOneShot(barkSounds[Random.Range(0, barkSounds.Length)], volume);
+
             timer = Random.Range(minWait, maxWait);
         }
     }
-
 }

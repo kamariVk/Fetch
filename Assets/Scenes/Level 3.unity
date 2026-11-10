@@ -7386,6 +7386,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7513123796432457509, guid: 11fcf3e2ae549194eab147dcce64864c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1973166808}
+    - targetCorrespondingSourceObject: {fileID: 7513123796432457509, guid: 11fcf3e2ae549194eab147dcce64864c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1973166818}
   m_SourcePrefab: {fileID: 100100000, guid: 11fcf3e2ae549194eab147dcce64864c, type: 3}
 --- !u!1 &1833792578
 GameObject:
@@ -7850,6 +7853,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1ff16d8dd868d145a9410215f4d6a71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemCollector
+--- !u!114 &1973166818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275425003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5ef567c91abb544833d9ea146bff3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryController
+  inventoryUI: {fileID: 503848344}
+  startingItems: []
+  carriedItems: []
 --- !u!1 &2022153207
 GameObject:
   m_ObjectHideFlags: 0
