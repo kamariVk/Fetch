@@ -269,9 +269,7 @@ GameObject:
   - component: {fileID: 5371076842901685258}
   - component: {fileID: 5219378489529143104}
   - component: {fileID: 3823620051234419601}
-  - component: {fileID: 2493581757244979577}
   - component: {fileID: 4507746271065749730}
-  - component: {fileID: 3093701462433036158}
   - component: {fileID: 2916556435684802628}
   m_Layer: 0
   m_Name: player 1
@@ -484,6 +482,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   isGrappling: 0
+  movementScript: {fileID: 0}
+  swingForce: 20
+  maxDistance: 6
 --- !u!232 &5219378489529143104
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -614,22 +615,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!111 &2493581757244979577
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7513123796432457509}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 7400000, guid: 684c235dcb49d9c44a82ea53d4cdcc68, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
 --- !u!95 &4507746271065749730
 Animator:
   serializedVersion: 7
@@ -652,21 +637,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3093701462433036158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7513123796432457509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f5ef567c91abb544833d9ea146bff3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventoryController
-  inventoryUI: {fileID: 0}
-  startingItems: []
-  carriedItems: []
 --- !u!114 &2916556435684802628
 MonoBehaviour:
   m_ObjectHideFlags: 0
