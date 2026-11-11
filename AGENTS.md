@@ -2,7 +2,7 @@
 - Project name: Fetch
 - Unity version: Unity 6000.3.22f1
 - Active game object:
-  - Name: Bella
+  - Name: frisbee
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
