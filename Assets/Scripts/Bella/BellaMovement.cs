@@ -40,19 +40,19 @@ public class BellaMovement : MonoBehaviour
         if (currentStopPosition >= positions.Length) return;    // hun har været ved alle punkter, ruten er færdig
 
         hopTimer += Time.fixedDeltaTime;
-        float t = Mathf.Clamp01(hopTimer / hopDuration);
+        float hopProgress = Mathf.Clamp01(hopTimer / hopDuration);
 
         Vector2 target = positions[currentStopPosition].position;
 
-        Vector2 newPos = Vector2.Lerp(startPos, target, t);
+        Vector2 newPos = Vector2.Lerp(startPos, target, hopProgress);
 
        
         //    Sin(t * PI) er 0 ved start, 1 midtvejs og 0 ved landing, altså en bue
-        newPos.y += Mathf.Sin(t * Mathf.PI) * hopHeight;
+        newPos.y += Mathf.Sin(hopProgress * Mathf.PI) * hopHeight;
       
         rb.MovePosition(newPos);
  
-        if (t >= 1f)
+        if (hopProgress >= 1f)
         {
             spriteRenderer.sprite = idleSprite;
             isWaiting = true;

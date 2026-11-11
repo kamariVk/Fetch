@@ -3536,6 +3536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bella 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4471182108501077402, guid: 00edca11c10811d46a907238c8a852ee, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6704111607006799503, guid: 00edca11c10811d46a907238c8a852ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.2
