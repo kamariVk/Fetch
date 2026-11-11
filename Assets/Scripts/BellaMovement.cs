@@ -1,15 +1,11 @@
 using UnityEngine;
 
 public class BellaMovement : MonoBehaviour
-{
- 
-
+{ 
     [SerializeField] private Transform[] positions;     // punkterne hun hopper hen til, i rækkefølge (træk tomme GameObjects herind)
     [SerializeField] private float hopDuration = 0.8f;  
     [SerializeField] private float hopHeight = 2f;      
     [SerializeField] private float waitTime = 1f;       
-    
-
     private Rigidbody2D rb;
     private int currentStopPosition = 0;  
     private bool hasStarted = false;      // om Tom kommet ind i hitboxen endnu
@@ -21,14 +17,10 @@ public class BellaMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-       
     }
 
- 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (hasStarted) return;              
-
         if (other.CompareTag("Player"))       
         {
             hasStarted = true;
@@ -36,30 +28,22 @@ public class BellaMovement : MonoBehaviour
             hopTimer = 0f;
         }
     }
-
     void FixedUpdate()
     {
-        
         if (!hasStarted) return;                                // Tom er ikke kommet endnu
         if (isWaiting) return;                                  // hun holder pause på et punkt
         if (currentStopPosition >= positions.Length) return;    // hun har været ved alle punkter, ruten er færdig
 
-        
         hopTimer += Time.fixedDeltaTime;
-
-       
         float t = Mathf.Clamp01(hopTimer / hopDuration);
 
-       
         Vector2 target = positions[currentStopPosition].position;
 
-        
         Vector2 newPos = Vector2.Lerp(startPos, target, t);
 
        
         //    Sin(t * PI) er 0 ved start, 1 midtvejs og 0 ved landing, altså en bue
         newPos.y += Mathf.Sin(t * Mathf.PI) * hopHeight;
-
       
         rb.MovePosition(newPos);
  
@@ -68,11 +52,7 @@ public class BellaMovement : MonoBehaviour
             isWaiting = true;                                
             Invoke(nameof(MoveToNextPosition), waitTime);    
         }
-
-        
-    }
-
-    
+    } 
     private void MoveToNextPosition()
     {
         currentStopPosition++;
@@ -81,13 +61,13 @@ public class BellaMovement : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-            startPos = rb.position;      
+        startPos = rb.position;      
         hopTimer = 0f;               
         isWaiting = false;           
     }
 
  
-    void OnDrawGizmos()
+    void OnDrawGizmos() //tegner streger så det gør det nemmere at se hvor linjen for bevægelsen af bella
     {
         if (positions == null) return;
 

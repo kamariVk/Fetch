@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 6373558012301045306}
   - component: {fileID: 611393933207703732}
   - component: {fileID: 4464484237075373304}
-  - component: {fileID: 7565386839994835876}
   m_Layer: 0
   m_Name: 'player '
   m_TagString: Player
@@ -89,7 +88,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5047257539527820742, guid: 44c48b62c826d5344a4eeb7ad5df456e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -162,18 +161,18 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.70903325, y: -0.043857813}
+  m_Offset: {x: -0.70903325, y: -0.015513897}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.328125, y: 8.6484375}
+    oldSize: {x: 4.3398995, y: 8.6484375}
     newSize: {x: 4.734375, y: 8.7109375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.0087276, y: 8.602007}
-  m_EdgeRadius: 0
+  m_Size: {x: 1.0087, y: 7.5453}
+  m_EdgeRadius: 0.5
 --- !u!114 &5254153112728516971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +207,7 @@ MonoBehaviour:
   jumpForce: 25
   isGrounded: 1
   groundCheck: {fileID: 5247210801542270801}
-  checkRadius: 0.3
+  checkRadius: 0.6
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -250,7 +249,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: -7.105882, y: -2.0464942}
   m_AutoConfigureDistance: 1
-  m_Distance: 47.90587
+  m_Distance: 60.00371
   m_MaxDistanceOnly: 0
 --- !u!120 &611393933207703732
 LineRenderer:
@@ -384,19 +383,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7565386839994835876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4850128255858294866}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b41a0e28fb19f548afbe437eb217c09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Frisbee
-  throwStrength: 10
 --- !u!1 &7487241215089329326
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,8 +408,8 @@ Transform:
   m_GameObject: {fileID: 7487241215089329326}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7, y: -4.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.58, y: -4.259, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5341596258065545139}
@@ -650,3 +636,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Throwable
   throwStrength: 30
+  pickupDelay: 0.3
