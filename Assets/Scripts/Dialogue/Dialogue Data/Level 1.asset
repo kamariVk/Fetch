@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eda9c2c2bfd0eed4dbf0db6956021240, type: 3}
-  m_Name: Start Level
+  m_Name: Level 1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - Bella SIT
-  - Stop running away
+  - BELLA COME BACK
