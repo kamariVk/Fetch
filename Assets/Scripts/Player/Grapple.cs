@@ -34,6 +34,9 @@ public class Grapple : MonoBehaviour
         {
             Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             point.z = 0;
+            Debug.Log("Ramte punkt: " + (Physics2D.OverlapCircle(point, 0.1f, grappleableLayer) != null));
+            Debug.Log("Valgt item: " + inventory.GetSelectedItem());
+            Debug.Log("Afstand: " + Vector2.Distance(transform.position, point) + " / max: " + maxDistance);
 
             if (Physics2D.OverlapCircle(point, 0.1f, grappleableLayer) != null)
             {
@@ -42,6 +45,7 @@ public class Grapple : MonoBehaviour
                 if (Vector2.Distance(transform.position, point) > maxDistance) return;
 
                 isGrappling = true;
+                Debug.Log("GRAPPLER NU");
 
                 dj.connectedAnchor = point;
                 dj.distance = Vector2.Distance(transform.position, point);
