@@ -1564,7 +1564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5341596258065545139, guid: 4dfa0d51a7dd3d040805b32ba1ab1c3b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.7
+      value: -46
       objectReference: {fileID: 0}
     - target: {fileID: 5341596258065545139, guid: 4dfa0d51a7dd3d040805b32ba1ab1c3b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2810,12 +2810,24 @@ PrefabInstance:
       value: -0.57
       objectReference: {fileID: 0}
     - target: {fileID: 5269225301951443052, guid: 71253043d2b1791438243219ddae066e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8042
+      objectReference: {fileID: 0}
+    - target: {fileID: 5269225301951443052, guid: 71253043d2b1791438243219ddae066e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8042
+      objectReference: {fileID: 0}
+    - target: {fileID: 5269225301951443052, guid: 71253043d2b1791438243219ddae066e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8042
+      objectReference: {fileID: 0}
+    - target: {fileID: 5269225301951443052, guid: 71253043d2b1791438243219ddae066e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.5
+      value: -28.6911
       objectReference: {fileID: 0}
     - target: {fileID: 5269225301951443052, guid: 71253043d2b1791438243219ddae066e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22
+      value: -22.01
       objectReference: {fileID: 0}
     - target: {fileID: 5269225301951443052, guid: 71253043d2b1791438243219ddae066e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2854,6 +2866,14 @@ PrefabInstance:
       value: Bella
       objectReference: {fileID: 0}
     - target: {fileID: 7498739358884129380, guid: 71253043d2b1791438243219ddae066e, type: 3}
+      propertyPath: idleSprite
+      value: 
+      objectReference: {fileID: -1717908369773009158, guid: 6169e3728b50d32478885f7a02b56b17, type: 3}
+    - target: {fileID: 7498739358884129380, guid: 71253043d2b1791438243219ddae066e, type: 3}
+      propertyPath: jumpSprite
+      value: 
+      objectReference: {fileID: -4354405995541907036, guid: 8daeadea80f0f00469eb043fe6640c24, type: 3}
+    - target: {fileID: 7498739358884129380, guid: 71253043d2b1791438243219ddae066e, type: 3}
       propertyPath: positions.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -2887,7 +2907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8423349195299089641, guid: 71253043d2b1791438243219ddae066e, type: 3}
       propertyPath: m_Size.y
-      value: 5.274667
+      value: 2.4154353
       objectReference: {fileID: 0}
     - target: {fileID: 8423349195299089641, guid: 71253043d2b1791438243219ddae066e, type: 3}
       propertyPath: m_Offset.x
@@ -2895,10 +2915,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8423349195299089641, guid: 71253043d2b1791438243219ddae066e, type: 3}
       propertyPath: m_Offset.y
-      value: 2.0475802
+      value: 0.6179642
       objectReference: {fileID: 0}
+    - target: {fileID: 8423349195299089641, guid: 71253043d2b1791438243219ddae066e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.0117188
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423349195299089641, guid: 71253043d2b1791438243219ddae066e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.7773438
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492100554698148483, guid: 71253043d2b1791438243219ddae066e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1717908369773009158, guid: 6169e3728b50d32478885f7a02b56b17, type: 3}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5092197589629946271, guid: 71253043d2b1791438243219ddae066e, type: 3}
+    - {fileID: 3628913534696879559, guid: 71253043d2b1791438243219ddae066e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71253043d2b1791438243219ddae066e, type: 3}

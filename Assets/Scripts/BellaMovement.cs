@@ -5,8 +5,11 @@ public class BellaMovement : MonoBehaviour
     [SerializeField] private Transform[] positions;     // punkterne hun hopper hen til, i rækkefølge (træk tomme GameObjects herind)
     [SerializeField] private float hopDuration = 0.8f;  
     [SerializeField] private float hopHeight = 2f;      
-    [SerializeField] private float waitTime = 1f;       
+    [SerializeField] private float waitTime = 1f;
+    [SerializeField] private Sprite jumpSprite;
+    [SerializeField] private Sprite idleSprite;
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
     private int currentStopPosition = 0;  
     private bool hasStarted = false;      // om Tom kommet ind i hitboxen endnu
     private bool isWaiting = false;       // står hun og venter på et punkt lige nu?
@@ -17,12 +20,14 @@ public class BellaMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))       
         {
+            spriteRenderer.sprite = jumpSprite;
             hasStarted = true;
             startPos = rb.position;           
             hopTimer = 0f;
@@ -49,8 +54,10 @@ public class BellaMovement : MonoBehaviour
  
         if (t >= 1f)
         {
-            isWaiting = true;                                
-            Invoke(nameof(MoveToNextPosition), waitTime);    
+            spriteRenderer.sprite = idleSprite;
+            isWaiting = true;
+            Invoke(nameof(MoveToNextPosition), waitTime);   
+            
         }
     } 
     private void MoveToNextPosition()
@@ -61,8 +68,9 @@ public class BellaMovement : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        startPos = rb.position;      
-        hopTimer = 0f;               
+        startPos = rb.position;
+        spriteRenderer.sprite = jumpSprite;
+        hopTimer = 0f;
         isWaiting = false;           
     }
 
