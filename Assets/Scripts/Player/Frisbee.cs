@@ -6,7 +6,6 @@ public class Frisbee : MonoBehaviour
     [SerializeField] private float throwStrength = 3f;
     [SerializeField] private Vector3 holdOffset = new Vector3(0.758f, 0.045f, 0f);
     [SerializeField] private float pickupDelay = 0.3f;
-    [SerializeField] private GameObject tutorialText;
 
     private Rigidbody2D rigidbody;
     private Collider2D collider;
@@ -44,7 +43,7 @@ public class Frisbee : MonoBehaviour
 
         if (inventory != null) inventory.RemoveItem(gameObject);
 
-        if (tutorialText != null) tutorialText.SetActive(false);
+        
         isHolding = false;
         spriteRenderer.enabled = true;
         transform.SetParent(null);
