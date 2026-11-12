@@ -777,7 +777,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1384442960658306391, guid: bfddd1e9098707846a41d79652d622cd, type: 3}
       propertyPath: delay
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1384442960658306391, guid: bfddd1e9098707846a41d79652d622cd, type: 3}
       propertyPath: dialogue
@@ -3979,7 +3979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TimedDialogue
   dialogueUI: {fileID: 1544053504}
   dialogue: {fileID: 11400000, guid: 92fa9a5b9d6a9b440aa38860e81dd293, type: 2}
-  delay: 12
+  delay: 8
 --- !u!1 &1757544146
 GameObject:
   m_ObjectHideFlags: 0
