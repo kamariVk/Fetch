@@ -27,6 +27,7 @@ public class BellaMovement : MonoBehaviour
     {
         if (other.CompareTag("Player"))       
         {
+            spriteRenderer.flipX = positions[currentStopPosition].position.x < rb.position.x;
             spriteRenderer.sprite = jumpSprite;
             hasStarted = true;
             startPos = rb.position;           
@@ -67,8 +68,10 @@ public class BellaMovement : MonoBehaviour
         {
             Destroy(gameObject);
             return;
+
         }
         startPos = rb.position;
+        spriteRenderer.flipX = positions[currentStopPosition].position.x < rb.position.x;
         spriteRenderer.sprite = jumpSprite;
         hopTimer = 0f;
         isWaiting = false;           
