@@ -777,7 +777,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1384442960658306391, guid: bfddd1e9098707846a41d79652d622cd, type: 3}
       propertyPath: delay
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1384442960658306391, guid: bfddd1e9098707846a41d79652d622cd, type: 3}
       propertyPath: dialogue
@@ -3876,7 +3876,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a53bf3ac5b6bd834eb30b0ac351f652f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.02
+  m_Volume: 0.03
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Grapple
   - Item
+  - Dog
   layers:
   - Default
   - TransparentFX
