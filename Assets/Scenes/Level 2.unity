@@ -1186,8 +1186,8 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 503f7c48bac12bc439d83b31d86d0b86, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.05
-  m_Pitch: 1
+  m_Volume: 0.06
+  m_Pitch: 0.85
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -6659,7 +6659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TimedDialogue
   dialogueUI: {fileID: 61079699}
   dialogue: {fileID: 11400000, guid: c4a8a169bde3e514cb763143b4ef6b81, type: 2}
-  delay: 7
+  delay: 8
 --- !u!1 &1534663796
 GameObject:
   m_ObjectHideFlags: 0
@@ -7367,8 +7367,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 93e1601cc6b792f4b8a1badd27bd6bb8, type: 3}
   minWait: 8
   maxWait: 12
-  minPitch: 0.65
-  maxPitch: 0.75
+  minPitch: 0.8
+  maxPitch: 0.85
 --- !u!82 &1756909705
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7491,7 +7491,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1384442960658306391, guid: bfddd1e9098707846a41d79652d622cd, type: 3}
       propertyPath: delay
-      value: 1
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1384442960658306391, guid: bfddd1e9098707846a41d79652d622cd, type: 3}
       propertyPath: dialogue
@@ -8511,7 +8511,7 @@ AudioSource:
   m_Resource: {fileID: 8300000, guid: a53bf3ac5b6bd834eb30b0ac351f652f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.02
-  m_Pitch: 1
+  m_Pitch: 0.8
   Loop: 0
   Mute: 0
   Spatialize: 0
