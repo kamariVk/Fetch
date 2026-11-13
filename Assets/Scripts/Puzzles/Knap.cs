@@ -2,10 +2,12 @@ using UnityEngine;
 
 public class Knap : MonoBehaviour
 {
-    [SerializeField] private GameObject door;
+    [SerializeField] private GameObject closedDoor;
+    [SerializeField] private GameObject openDoor;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        door.SetActive(false);
+        closedDoor.SetActive(false);
+        openDoor.SetActive(true);
     }
 }

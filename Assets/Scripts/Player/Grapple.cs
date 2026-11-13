@@ -43,7 +43,7 @@ public class Grapple : MonoBehaviour
                 if (Vector2.Distance(transform.position, point) > maxDistance) return;
 
                 isGrappling = true;
-                Debug.Log("GRAPPLER NU");
+                
 
 
                 dj.connectedAnchor = point;
@@ -59,6 +59,7 @@ public class Grapple : MonoBehaviour
         if (Input.GetMouseButtonUp(1) && isGrappling)
         {
             isGrappling = false;
+
             lr.enabled = false;
             dj.enabled = false;
             if (movementScript != null) movementScript.enabled = true;
